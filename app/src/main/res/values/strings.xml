@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Aladdin</string>
+    <string name="tv_user">User Name</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="tv_cname">Biz Insights</string>
+    <string name="tv_email">Email ID</string>
+    <string name="tv_password">Password</string>
+    <string name="hint_email">Enter Email Id</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="tv_forgetpassword">Forgot Password?</string>
+    <string name="action_login">Login</string>
+    <string name="action_register">Register</string>
+    <string name="tv_orlogin">Also register from</string>
+
+    <string name="msg_error_occurred">\"error occurred: \"</string>
+    <string name="msg_canceled">canceled</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_view_pager">View pager</string>
+    <string name="nav_account">Account</string>
+
+    <string name="preference_file_key">UserPreferences</string>
+    <string name="preference_fname_key">firstnameKey</string>
+    <string name="preference_lname_key">lastnameKey</string>
+    <string name="preference_mobileno_key">mobilenoKey</string>
+    <string name="preference_email_key">emailKey</string>
+
+    <string name="positive_button">YES</string>
+    <string name="negative_button">No</string>
+    <string name="msg_permission_granted">Permission Granted</string>
+    <string name="msg_permission_denied">Permission Denied\n</string>
+    <string name="msg_permission_denied_msg"><![CDATA[If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > Permissions[STORAGE, CAMERA]]]></string>
+    <string name="msg_permission_required">Permissions required to application work!</string>
+
+    <string name="title_list">List</string>
+
+    <string name="option_capture_image">Capture Image</string>
+    <string name="option_choose_image">Choose Image</string>
+    <string name="option_open_chooser">Open Chooser</string>
+
+    <string name="tv_upload">Upload Your</string>
+    <string name="tv_image">Image</string>
+
+    <string name="tv_fname">First Name</string>
+    <string name="tv_lname">Last Name</string>
+    <string name="tv_cpassword">Confirm Password</string>
+    <string name="tv_mobileno">Mobile No</string>
+    <string name="hint_fname">Enter First Name</string>
+    <string name="hint_lname">Enter Last Name</string>
+    <string name="hint_mobileno">Enter Mobile Number</string>
+    <string name="hint_cpassword">Enter Confirm Password</string>
+
+    <string name="menu_easy_image">Easy Image</string>
+    <string name="menu_view_pager">View Pager</string>
+    <string name="menu_btn_navigation">Button Navigation</string>
+
+    <string name="valid_login">Successfully Login..</string>
+    <string name="valid_login_fail">Login Failed</string>
+    <string name="valid_mobileno">Enter Valid Mobile Number</string>
+
+    <string name="nav_item_view_user_list">View User list</string>
+    <string name="nav_item_register">Registration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_upload">Upload</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EasyImageActivity"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/iv_upload_image"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_easy_image"/>
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn_upload"
+       android:text="Upload"
+       android:layout_marginTop="30dp"
+       android:textAllCaps="false"
+       android:textSize="20sp"
+       android:padding="10dp"
+       android:background="@drawable/round_rect"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

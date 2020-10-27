@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/b2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_userimage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="115dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_user_icon" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ib_uimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="108dp"
+            android:layout_toEndOf="@id/iv_userimage"
+            android:background="@drawable/round_upload_image"
+            android:src="@drawable/ic_uploadimage"
+            android:tint="@color/black" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_fname"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:text="@string/tv_fname" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_lname"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/tv_fname"
+            android:padding="5dp"
+            android:text="@string/tv_lname" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/storke_1"
+            android:hint="@string/hint_fname"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:inputType="textCapWords"
+            android:padding="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/et_fname"
+            android:background="@drawable/storke_1"
+            android:padding="5dp"
+            android:hint="@string/hint_lname" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/tv_email"
+        tools:ignore="InvalidId" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/storke_1"
+        android:hint="@string/hint_email"
+        android:padding="5dp"
+        tools:ignore="InvalidId" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/tv_password" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/storke_1"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:padding="5dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_cpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/tv_cpassword" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_cpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/storke_1"
+        android:hint="@string/hint_cpassword"
+        android:inputType="textPassword"
+        android:padding="5dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/tv_mobileno" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/storke_1"
+        android:hint="@string/hint_mobileno"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="5dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_rect"
+        android:text="@string/action_register"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_orlogin"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/tv_orlogin"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/iv_fb"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="120dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fb1" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/iv_google"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/google_logo" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
